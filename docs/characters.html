@@ -25,8 +25,8 @@
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #be3737;
+  border: 1px solid #361172;
+  background-color: #b62b2b;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -34,10 +34,10 @@
   margin-top: 0px;
   background-color: inherit;
   float: left;
-  border: none;
+  border: #361172;
   outline: none;
   cursor: pointer;
-  padding: 0px 16px;
+  padding: 10px 16px;
   transition: 0.3s;
 }
 
@@ -55,7 +55,7 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #361172;
   border-top: none;
 }
 
@@ -64,7 +64,7 @@
 
 .vile-table th, td {
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #361172;
   line-height: 28px;
 }
 
@@ -81,58 +81,72 @@ button img {
 </div>
 
 <div style="text-align: center">
-  <button onclick="location.href='help.html'" type="button" style="display:inline-block;">Help Guide</button>
-  <button onclick="location.href='characters.html'" type="button" style="display:inline-block;">Characters</button>
-  <button onclick="location.href='changelog.html'" type="button" style="display:inline-block;">Change Log</button>
-  <button onclick="location.href='bonuses.html'" type="button" style="display:inline-block;">Bonuses</button>
-  <button onclick="location.href='credits.html'" type="button" style="display:inline-block;">Credits</button>
+  <button onclick="location.href='help.html'" type="button" style="display: contents;
+   color: rgb(255, 208, 0);
+   border: #361172;">HelpGuide </button>
+
+  <button onclick="location.href='characters.html'" type="button" style="display:contents; 
+   color: rgb(255, 208, 0); 
+   border: 10px solid #361172;">Characters </button>
+
+  <button onclick="location.href='changelog.html'" type="button" style="display:contents;
+   color: rgb(255, 208, 0);
+   border: 10px solid#361172;">ChangeLog </button>
+
+  <button onclick="location.href='bonuses.html'" type="button" style="display:contents; 
+   color: rgb(255, 208, 0); 
+   border: 10px solid#361172;">Bonuses </button>
+
+  <button onclick="location.href='credits.html'" type="button" style="display:contents; 
+   color: rgb(255, 208, 0);
+   border: 10px solid #361172;"> Credits</button>
 </div>
 
 <h2>Characters</h2>
 
 <div class="tab">
   <button class="tablinks active" onclick="openChar(event, 'Mega Man X')">
-    <img src="assets/images/x_icon.png" width="26" />
-    Mega Man X
+    <img src="assets/images/x_icon.png" width="40" />
+    X
   </button>
   <button class="tablinks" onclick="openChar(event, 'Zero')">
-    <img src="assets/images/zero_icon.png" width="26" />
+    <img src="assets/images/zero_icon.png" width="40" />
     Zero
   </button>
   <button class="tablinks" onclick="openChar(event, 'Vile')">
-    <img src="assets/images/vile_icon.png" width="26" />
+    <img src="assets/images/vile_icon.png" width="40" />
     Vile
   </button>
   <button class="tablinks" onclick="openChar(event, 'Axl')">
-    <img src="assets/images/axl_icon.png" width="26" />
+    <img src="assets/images/axl_icon.png" width="40" />
     Axl
   </button>
   <button class="tablinks" onclick="openChar(event, 'Sigma')">
-    <img src="assets/images/sigma_icon.png" width="26" />
+    <img src="assets/images/sigma_icon.png" width="40" />
     Sigma
   </button>
   <button class="tablinks" onclick="openChar(event, 'Dynamo')">
-    <img src="assets/images/dynamo_icon.png" width="26" />
+    <img src="assets/images/dynamo_icon.png" width="40" />
     Dynamo
   </button>
   <button class="tablinks" onclick="openChar(event, 'Iris')">
-    <img src="assets/images/iris_icon.png" width="26" />
+    <img src="assets/images/iris_icon.png" width="40" />
     Iris
   </button>
   <button class="tablinks" onclick="openChar(event, 'Highmax')">
-    <img src="assets/images/highmax_icon.png" width="26" />
+    <img src="assets/images/highmax_icon.png" width="40" />
     Highmax
   </button>
   <button class="tablinks" onclick="openChar(event, 'GBD')">
-   <!-- <img src="assets/images/GBD_icon.png" width="26" /> -->
+   <img src="assets/images/GBD_icon.png" width="40" /> 
     GBD
   </button>
   <button class="tablinks" onclick="openChar(event, 'Dragoon')">
-    <!-- <img src="assets/images/dragoon_icon.png" width="26" /> -->
+    <img src="assets/images/dragoon_icon.png" width="40" />
      Dragoon
    </button>
    <button class="tablinks" onclick="openChar(event, 'Zain')">
-    <!-- <img src="assets/images/zain_icon.png" width="26" /> -->
+    <img src="assets/images/zain_icon.png" width="40" />
      Zain
    </button>
 </div>
@@ -1075,6 +1089,22 @@ button img {
     <p> Iris is a major character of the Mega Man X series. serving as tritagonist in Mega Man X4. Iris is introduced as Zero's Love interest who gets caught in the middle of the civil war between her brother fighting for Repliforce and her lover fighting for the Maverick Hunters. Iris was a kind-hearted Reploid who desired peace for all.</p>
     <img src="assets/images/ssx7.png" width="500"/>
   </div>
+<h4>Overview</h4>
+<p>"Setplay styled zoner"</p>
+<h4>Movelist:</h4>
+<ul>
+  <li><b>Slash:</b> A <img src="assets/images/iris/slash.png"></li>
+  <li><b>Up Slash:</b> UP + A <img src="assets/images/iris/up_slash.png"></li>
+  <li><b>Dive Kick:</b> DOWN + D <img src="assets/images/iris/dive.png"></li>
+  <li><b>Crystal Start:</b> Hold S (Press directions to move) <img src="assets/images/iris/crystal_start.png"></li>
+  <li><b>Crystal Beam:</b> Release S while holding UP <img src="assets/images/iris/crystal_beam.png"></li>
+  <li><b>Crystal Ice:</b> Release S while holding FORWARD <img src="assets/images/iris/crystal_ice.png"></li>
+  <li><b>R'A Slash:</b> Press L <img src="assets/images/iris/ra_slash.png"></li>
+  <li><b>R'A Slash B:</b> Hold Dir + Press L <img src="assets/images/iris/ra_slash_b.png"></li>
+  <li><b>Cannon R'A Spawn:</b> UP + L <img src="assets/images/iris/ra_cannon.png"></li>
+  <li><b>Cannon R'A Laser:</b> UP + S (Must have Cannon R'A Active) <img src="assets/images/iris/ra_cannon_laser.png"></li>
+  <li><b>Cannon R'A Spark:</b> R (Must have Cannon R'A Active) <img src="assets/images/iris/ra_cannon_spark.png"></li>
+</ul>
 </div>
 
 <div id="Highmax" class="tabcontent">
@@ -1121,7 +1151,7 @@ button img {
     <li><b>Tatsumaki Senpukyaku:</b> DOWN, FORWARD, R <img src="assets/images/dragoon/tatsu.png"></li>
     <li><b>Magma Spit:</b> C (Consumes Super Gauge) <img src="assets/images/dragoon/magma_spit.png"></li>
     <li><b>Flame Shot:</b> UP, C (Consumes Super Gauge) <img src="assets/images/dragoon/flame_shot.png"></li>
-    <li><b>Raging Demon:</b> Hold FORWARD, A, A, R, S Hold backwards <img src="assets/images/dragoon/raging.png"></li>
+    <li><b>Raging Demon:</b> Hold FORWARD, A, A, R, S Hold backwards (Costs 10 Metals)<img src="assets/images/dragoon/raging.png"></li>
 
   </ul>
 
@@ -1136,7 +1166,7 @@ button img {
   </div>
 <h4>Gameplay/Abilities</h4>
 <p>"High Damage fighter with defensive skills but can't combo without resources." <br> 
-  Deals massive damage at melee range; parry provide iframes; powerful anti-air uppercuts; can reflect all projectiles back at the user.</li></ul></p>
+ Zain uses a "Koku" System to execute most of his attacks, it recharges automatically and can be stacked up to 8.</li></ul></p>
   <h4> Movelist:</h4>
   <ul>
       <li><b>Slash:</b> A <img src="assets/images/zainskills/slash.png"> </li>
