@@ -81,6 +81,14 @@ button {
   float: left;
 }
 
+#weapon1x4, #weapon2x4, #weapon3x4, #weapon4x4, #weapon5x4, #weapon6x4, #weapon7x4, #weapon8x4 {
+  background: url("images/weaponsx4.png?v=1.0.0");
+  display: block;
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+
 .weapon-label {
   display: block;
   float: left;
@@ -196,6 +204,38 @@ button {
 }
 
 #weapon8x3 {
+  background-position: -224px 0;
+}
+
+#weapon1x4 {
+  background-position: 0 0;
+}
+
+#weapon2x4 {
+  background-position: -32px 0;
+}
+
+#weapon3x4 {
+  background-position: -64px 0;
+}
+
+#weapon4x4 {
+  background-position: -96px 0;
+}
+
+#weapon5x4 {
+  background-position: -128px 0;
+}
+
+#weapon6x4 {
+  background-position: -160px 0;
+}
+
+#weapon7x4 {
+  background-position: -192px 0;
+}
+
+#weapon8x4 {
   background-position: -224px 0;
 }
 
