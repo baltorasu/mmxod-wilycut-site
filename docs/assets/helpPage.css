@@ -16,6 +16,11 @@ li {
   margin-bottom: 5px;
 }
 
+@font-face {
+  font-family: 'Mega Man X', 'Times New Roman', serif;
+  src: url('Mega Man X.ttf');
+}
+
 body {
   background-color: black;
   margin-left: auto;
@@ -23,13 +28,18 @@ body {
   width: 1400px;
   max-width: 1400px;
   color: #FFFFFF;
+ 
   font-size: 17px;
   font-family: 'Mega Man X', 'Times New Roman', serif;
-  /*
-  background: url("images/background.png?v=1.0.0");
-  background-repeat: no-repeat;
-  background-size: cover;
-  */
+  
+  /* background-image: url("backgrounds/dual.jpg"), url("backgrounds/cry.jpeg"), url("backgrounds/clown.jpeg"), url("backgrounds/vile.jpeg"), url("backgrounds/buster.jpg"), url("backgrounds/chamel.jpeg"), url("backgrounds/invis.jpeg"), url("backgrounds/mandril.jpeg"), url("backgrounds/penguinkill.jpeg"), url("backgrounds/shotgun.jpeg"), url("backgrounds/x.jpeg"), url("backgrounds/chandeath.jpg");
+  background-attachment: scroll;
+  background-position: top, left, bottom, right, top left, top right, bottom left, bottom right, center;
+  background-size: 100px, 100px, 100px, 100px, 100px, 100px, 100px, 100px, 100px, 100px, 100px, 100px, 100px;
+  background-repeat: no-repeat; */
+
+  
+
 }
 
 .container {
